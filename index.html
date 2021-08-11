@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/bffa090a79.js" crossorigin="anonymous"></script>
+    <title>ICE CREAM SHOP</title>
+</head>
+
+
+<body> 
+  <!--SECCION BARRA DE NAVEGACIÓN-->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#fffdf5">
+
+    <div class="container-fluid menu">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="110" height="100"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavDropdown" >
+        <ul class="navbar-nav">
+          <li class="nav-item text-end">
+            <a class="nav-link fw-bolder text-dark" aria-current="page" href="../3ra_entrega/index.html">HOME</a>
+          </li>
+
+          <li class="nav-item dropdown text-end ">
+            <a class="nav-link fw-bolder dropdown-toggle text-dark" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
+            <ul class="dropdown-menu text-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item fw-bolder " href="productos.html">Ice cream</a></li>
+              <li><a class="dropdown-item fw-bolder" href="productos.html">Ice pop</a></li>
+              <li><a class="dropdown-item fw-bolder" href="productos.html">Postres</a></li>
+            </ul>
+
+          <li class="nav-item text-end ">
+            <a class="nav-link fw-bolder text-dark" href="locales.html">LOCALES</a>
+          </li>
+
+          <li class="nav-item text-end "> <!--EACH-->
+            <a class="nav-link fw-bolder historiaBgColor" href="historia.html">HISTORIA</a>
+          </li>
+
+          <li class="nav-item text-end" >
+            <a class="nav-link fw-bolder contactoBgColor" href="contacto.html">CONTACTO</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+          <!--carrousel-->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner_icecream.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/img_baja/banner2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/img_baja/banner3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      
+          <!--sabores---->
+        <div class="sabores">  
+          <h1 class="fw-bolder">SABORES</h1>
+          <div class="row row-cols-1 row-cols-md-3 row-cols-lg-6 g-2  m-4">
+            
+            <div class="col">
+              <div class="card border-white"> 
+                <a href="productos.html"><img class="sabores__img" src="img/chocolate.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h4 class="card-title fw-bolder">CHOCOLATES</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-white">
+                <a href="productos.html"><img class="sabores__img" src="img/dulcedeleche.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h4 class="card-title fw-bolder">DULCE DE LECHE</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-white">
+                <a href="productos.html"><img class="sabores__img" src="img/crema.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h4 class="card-title fw-bolder">CREMAS</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-white">
+                <a href="productos.html"><img class="sabores__img" src="img/frutal.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h4 class="card-title fw-bolder">FRUTALES</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-white">
+                <a href="productos.html"><img class="sabores__img" src="img/especial.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h4 class="card-title fw-bolder">ESPECIALES</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-white">
+                <a href="productos.html"><img class="sabores__img" src="img/vegano.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h4 class="card-title fw-bolder">VEGANOS</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+        
+      <div class="tentate"> 
+        <h1 class= "tentate__titulo">¡Tentate!</h1>
+        <video class="tentate__video" controls autoplay muted>
+            <source src="video/pexels-roman-odintsov-5659614.mp4" type="video/mp4">tu navegador no implementa el elemento <code>video</code></video>
+      </div>
+
+      <!--MAPS-->
+      <div class="botonesRrss">
+        <button class="btn--facebook"><i class="fab fa-facebook"></i></button>
+        <button class="btn--instagram"><i class="fab fa-instagram"></i></button>
+      </div>
+
+      <div class="container-fluid">
+        <img src="img/footer.jpg" class="img-fluid" alt="...">
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
+

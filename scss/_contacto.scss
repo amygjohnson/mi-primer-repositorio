@@ -1,0 +1,68 @@
+
+/*--------------------------- CONTACTO ---------------------------*/ 
+
+
+$rrss: (
+        facebook: black,
+        instagram: black
+); 
+
+form{
+    width: 350px;
+    margin: auto;
+    background-color: #ffff;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    border-color: black;
+    border-style: solid;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    color: black;
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    margin-top: 30px;
+    color: black;
+}
+
+
+#bottom{
+    background-color: black;
+    color: white;
+}
+
+
+.imgFooter{
+    background-image: url(img/footer.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*--BOTONES RRSS--*/
+.botonesRrss{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin: 10px;
+}
+
+/*--MAPS--*/
+@each $red, $color in $rrss {
+    .btn--#{$red} {
+        background-color: $color;
+        color:white;
+        padding: 10px;
+        margin:5px;
+    }
+ }
+ 
