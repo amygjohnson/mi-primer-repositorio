@@ -65,7 +65,7 @@ h4{
 }
 
 /*--EACH--*/
-@each $menu in historia, contacto,  {
+@each $menu in contacto,  {
     .#{$menu}BgColor { 
           background-color: black;
           color:white !important;
