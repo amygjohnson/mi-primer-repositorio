@@ -1,5 +1,9 @@
 /*--------------------------- HOME ---------------------------*/ 
 
+.navbar-nav{
+    padding-left: 90px !important;
+}
+
 /*SECCION SABORES*/    
 
 .sabores{  
@@ -30,6 +34,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -39,6 +44,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 40px;
     }
 }
  
