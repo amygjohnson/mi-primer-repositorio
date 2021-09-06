@@ -9,14 +9,14 @@
     gap: 10px 10px; 
     justify-content: center;
     grid-template-areas: 
-      "imagen imagen textos textos"
-      "imagen imagen textos textos"; 
+      "video video textos textos"
+      "video video textos textos"; 
   }
   
 .textosHistoria { 
     grid-area: textos;
     justify-content: center;
-    margin: 50px;
+    margin-right: 50px;
 }
 
 .textosHistoria__parrafo{
@@ -24,15 +24,12 @@
 }
 
 .heladero {
-    grid-area: imagen;
+    grid-area: video;
     justify-content: center;
-    margin: 50px;
+    margin: 30px;
 }
 
-.heladero__img{
-    width: 90%;
-}
- 
+
 /*--TABLET--*/
 
 @media only screen and (max-width: 768px) {
